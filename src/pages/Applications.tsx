@@ -39,7 +39,7 @@ export default function Applications() {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-3xl"
           >
-            <h1 className="font-display text-5xl font-bold text-white mb-6">應用面介紹</h1>
+            <h1 className="font-display text-5xl font-bold text-white mb-6">Applications</h1>
             <p className="text-xl text-gray-400 font-light leading-relaxed">
               From modular nano-architectures to comprehensive clinical translation strategies.
             </p>

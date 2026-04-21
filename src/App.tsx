@@ -27,7 +27,7 @@ export default function App() {
           <Route path="technology" element={<Technology />} />
           <Route path="applications" element={<Applications />} />
           <Route path="news" element={<News />} />
-          <Route path="about" element={<About />} />
+          <Route path="company" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

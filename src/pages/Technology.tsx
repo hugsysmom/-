@@ -13,11 +13,40 @@ export default function Technology() {
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
-            <h1 className="font-display text-5xl font-bold text-brand-navy mb-6">技術平台</h1>
+            <h1 className="font-display text-5xl font-bold text-brand-navy mb-6">Technologies</h1>
             <p className="text-xl text-gray-500 font-light leading-relaxed italic">
               "Advancing a precision-engineered, clinically scalable delivery architecture."
             </p>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Video/Visual Showcase Section */}
+      <section className="py-24 bg-white border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+           <div className="text-center mb-16">
+              <h2 className="font-display text-3xl font-bold text-brand-navy">Visualizing Precision</h2>
+              <p className="text-gray-500 font-light mt-4">Witness the controlled formation and targeting dynamics of our nano-architecture.</p>
+           </div>
+           <div className="max-w-4xl mx-auto aspect-video bg-brand-navy rounded-3xl overflow-hidden relative group cursor-pointer shadow-2xl">
+              <img 
+                src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=2000" 
+                className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-1000"
+                alt="Technology Visualization"
+              />
+              <div className="absolute inset-0 flex items-center justify-center">
+                 <div className="w-20 h-20 bg-brand-gold rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+                    <div className="w-0 h-0 border-t-[12px] border-t-transparent border-l-[20px] border-l-brand-navy border-b-[12px] border-b-transparent ml-2" />
+                 </div>
+              </div>
+              <div className="absolute bottom-8 left-8 right-8 flex justify-between items-end">
+                 <div className="text-white">
+                    <p className="font-display font-bold text-lg">Animation: LNP Delivery Mechanism</p>
+                    <p className="text-sm opacity-70">High-resolution molecular simulation</p>
+                 </div>
+                 <span className="px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-xs text-white uppercase tracking-widest">Scientific Preview</span>
+              </div>
+           </div>
         </div>
       </section>
 

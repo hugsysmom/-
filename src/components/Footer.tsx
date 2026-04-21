@@ -32,22 +32,22 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-brand-gold font-display font-semibold mb-6">快速連結</h4>
+            <h4 className="text-brand-gold font-display font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-4 text-sm text-gray-400">
-              <li><Link to="/technology" className="hover:text-white transition-colors">技術平台</Link></li>
-              <li><Link to="/applications" className="hover:text-white transition-colors">應用面介紹</Link></li>
-              <li><Link to="/news" className="hover:text-white transition-colors">最新消息</Link></li>
-              <li><Link to="/about" className="hover:text-white transition-colors">關於我們</Link></li>
+              <li><Link to="/technology" className="hover:text-white transition-colors">Technologies</Link></li>
+              <li><Link to="/applications" className="hover:text-white transition-colors">Applications</Link></li>
+              <li><Link to="/news" className="hover:text-white transition-colors">News</Link></li>
+              <li><Link to="/company" className="hover:text-white transition-colors">Company</Link></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-brand-gold font-display font-semibold mb-6">聯絡我們</h4>
+            <h4 className="text-brand-gold font-display font-semibold mb-6">Contact Us</h4>
             <ul className="space-y-4 text-sm text-gray-400">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-brand-gold shrink-0" />
-                <span>台灣台北市 (具體地址)</span>
+                <span>Nangang Software Park, Taipei City, Taiwan</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-brand-gold shrink-0" />
@@ -61,8 +61,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-white/10 flex flex-col md:row justify-between items-center text-xs text-gray-500">
-          <p>© 2024 Hermez Nanomedicine (天惠奈米生醫). All Rights Reserved.</p>
+        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+          <p>© 2024 Hermez Nanomedicine. All Rights Reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-gray-300">Privacy Policy</a>
             <a href="#" className="hover:text-gray-300">Terms of Service</a>

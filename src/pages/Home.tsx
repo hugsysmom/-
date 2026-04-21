@@ -41,13 +41,13 @@ export default function Home() {
                   to="/technology"
                   className="px-8 py-4 bg-brand-gold text-brand-navy font-bold rounded-full hover:bg-white hover:scale-105 transition-all duration-300 flex items-center"
                 >
-                  技術平台 <ArrowRight className="ml-2" size={20} />
+                  Technologies <ArrowRight className="ml-2" size={20} />
                 </Link>
                 <Link
-                  to="/about"
+                  to="/company"
                   className="px-8 py-4 border border-white/30 text-white font-bold rounded-full hover:bg-white/10 transition-all duration-300"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </motion.div>
@@ -106,9 +106,9 @@ export default function Home() {
       <section className="py-24 bg-gray-50 border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-20">
-            <h2 className="font-display text-4xl font-bold text-brand-navy mb-6">核心競爭力</h2>
+            <h2 className="font-display text-4xl font-bold text-brand-navy mb-6">Core Competencies</h2>
             <p className="text-gray-500 font-light">
-              我們的技術平台結合了精密的粒子工程、受控合成與工業級製造架構，致力於解決生物屏障難題。
+              Our technology platform integrates precision particle engineering, controlled synthesis, and industrial-grade manufacturing architecture to overcome biological barriers.
             </p>
           </div>
 
@@ -116,18 +116,18 @@ export default function Home() {
             {[
               {
                 icon: <Target className="text-brand-gold" size={40} />,
-                title: "精確的 LNP 工程",
-                desc: "專有的 LNP 設計框架，特點在於 30-50 nm 範圍內的受控納米顆粒尺寸分佈。"
+                title: "Precision LNP Engineering",
+                desc: "Proprietary LNP design framework featuring controlled nanoparticle size distribution within the 30–50 nm range."
               },
               {
                 icon: <Zap className="text-brand-red" size={40} />,
-                title: "一鍋法合成創新",
-                desc: "受控、單步過程的納米顆粒組裝，確保了極高的重現性與批次一致性。"
+                title: "One-Pot Synthesis Innovation",
+                desc: "Controlled, single-step assembly of nanoparticles ensuring high reproducibility and batch-to-batch consistency."
               },
               {
                 icon: <ShieldCheck className="text-brand-navy" size={40} />,
-                title: "轉錄平台優勢",
-                desc: "支持小分子治療物、核酸類模式以及新興的下一代藥物構建塊。"
+                title: "Translational Advantage",
+                desc: "Supports small molecule therapeutics, nucleic acid-based modalities, and emerging next-gen drug constructs."
               }
             ].map((feature, idx) => (
               <motion.div
@@ -154,14 +154,14 @@ export default function Home() {
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="flex flex-col md:flex-row items-center justify-between gap-10">
               <div>
-                <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-4">準備好革新您的藥物遞送？</h2>
-                <p className="text-brand-gold font-light opacity-90">與我們的工程團隊聯繫，探索 LNP 技術的無限可能。</p>
+                <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-4">Ready to Revolutionize Drug Delivery?</h2>
+                <p className="text-brand-gold font-light opacity-90">Connect with our engineering team to explore the possibilities of LNP technology.</p>
               </div>
               <Link
                 to="/contact"
                 className="px-10 py-5 bg-white text-brand-navy font-bold rounded-full hover:bg-brand-gold hover:text-brand-navy transition-all duration-300 whitespace-nowrap"
               >
-                聯繫我們
+                Contact Us
               </Link>
             </div>
          </div>

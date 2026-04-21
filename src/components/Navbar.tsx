@@ -5,21 +5,21 @@ import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '@/src/lib/utils';
 
 const navItems = [
-  { name: '技術平台', path: '/technology' },
-  { name: '應用面介紹', path: '/applications' },
-  { name: '最新消息', path: '/news' },
+  { name: 'Technologies', path: '/technology' },
+  { name: 'Applications', path: '/applications' },
+  { name: 'News', path: '/news' },
   { 
-    name: '關於我們', 
-    path: '/about',
+    name: 'Company', 
+    path: '/company',
     dropdown: [
-      { name: 'About Us', path: '/about#about' },
-      { name: 'Our Team', path: '/about#team' },
-      { name: 'Our Partners', path: '/about#partners' },
-      { name: 'Careers', path: '/about#careers' },
-      { name: 'Patents', path: '/about#patents' },
+      { name: 'About Us', path: '/company#about' },
+      { name: 'Our Team', path: '/company#team' },
+      { name: 'Our Partners', path: '/company#partners' },
+      { name: 'Careers', path: '/company#careers' },
+      { name: 'Patents', path: '/company#patents' },
     ]
   },
-  { name: '聯絡我們', path: '/contact' },
+  { name: 'Contact Us', path: '/contact' },
 ];
 
 export default function Navbar() {

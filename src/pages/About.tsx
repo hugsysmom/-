@@ -20,7 +20,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-2xl"
           >
-            <h1 className="font-display text-5xl font-bold mb-8">關於我們</h1>
+            <h1 className="font-display text-5xl font-bold mb-8">Company</h1>
             <p className="text-xl text-gray-400 font-light leading-relaxed">
               Advancing precision drug delivery through rational nanoengineering and scalable process innovation.
             </p>
