@@ -6,8 +6,25 @@ import { cn } from '@/src/lib/utils';
 
 const navItems = [
   { name: 'Technologies', path: '/technology' },
-  { name: 'Applications', path: '/applications' },
-  { name: 'News', path: '/news' },
+  { 
+    name: 'Applications', 
+    path: '/applications',
+    dropdown: [
+      { name: 'Product Pipeline', path: '/applications/pipeline' },
+      { name: 'Precision LNP Engineering', path: '/applications/lnp-engineering' },
+      { name: 'One-Pot Synthesis & Process Innovation', path: '/applications/process-innovation' },
+      { name: 'Translational Platform Advantage', path: '/applications/translational-platform' },
+    ]
+  },
+  { 
+    name: 'News', 
+    path: '/news',
+    dropdown: [
+      { name: 'Articles', path: '/news?category=articles' },
+      { name: 'News', path: '/news?category=news' },
+      { name: 'Awards', path: '/news?category=awards' },
+    ]
+  },
   { 
     name: 'Company', 
     path: '/company',
